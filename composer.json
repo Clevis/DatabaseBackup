@@ -1,0 +1,32 @@
+{
+	"name": "clevis/database-backup",
+	"keywords": ["mysql", "backup"],
+	"license": ["MIT"],
+	"authors": [
+		{
+			"name": "Clevis s.r.o.",
+			"homepage": "http://clevis.cz"
+		}
+	],
+	"autoload": {
+		"classmap": ["src/"]
+	},
+	"require": {
+		"clevis/mysql-dump": "@dev"
+	},
+	"require-dev": {
+		"nette/tester": "@dev",
+		"mockery/mockery": "@dev",
+		"petrp/access": "@dev"
+	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/Clevis/MySQL-dump"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/Clevis/Access"
+		}
+	]
+}
