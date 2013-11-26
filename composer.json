@@ -12,7 +12,7 @@
 		"classmap": ["src/"]
 	},
 	"require": {
-		"clevis/mysql-dump": "@dev"
+		"clevis/mysql-dump": "~1.0"
 	},
 	"require-dev": {
 		"nette/tester": "@dev",
@@ -20,10 +20,6 @@
 		"petrp/access": "@dev"
 	},
 	"repositories": [
-		{
-			"type": "vcs",
-			"url": "https://github.com/Clevis/MySQL-dump"
-		},
 		{
 			"type": "vcs",
 			"url": "https://github.com/Clevis/Access"
