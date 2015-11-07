@@ -11,7 +11,7 @@ Tiny wrapper around [Clevis/MySQLDump](https://github.com/Clevis/MySQL-dump) lib
 
 The recommended way to install this library is to use [Composer](http://getcomposer.org/).
 
-	php composer.phar install clevis/database-backup
+	composer require clevis/database-backup
 
 
 ## Basic Usage
